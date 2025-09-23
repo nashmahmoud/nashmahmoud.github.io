@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="icon" href="./images/tiger.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <title>Nash Mahmoud | Press</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans pb-16">
+<div class="max-w-4xl mx-auto bg-white px-6 py-6"> 
+
+<!-- Navbar -->
+<nav class="bg-white z-50 py-4">
+  <div class="max-w-3xl mx-auto px-4 flex justify-center relative">
+    
+    <!-- Desktop Nav: Rounded container with shadow -->
+    <div class="hidden md:flex space-x-0 bg-white rounded-full shadow-md overflow-hidden">
+      <a href="index.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">About</a>
+      <a href="publications.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Publications</a>
+      <a href="students.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Students</a>
+	  <a href="press.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Press</a>
+      <a href="more.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">More</a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2 focus:outline-none">
+      <i class="fa fa-bars text-2xl"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-start space-y-4 py-4 border-t border-gray-200 px-4 max-w-3xl mx-auto">
+    <a href="index.html" class="text-sm font-medium">About</a>
+    <a href="publications.html" class="text-sm font-medium">Publications</a>
+    <a href="students.html" class="text-sm font-medium">Students</a>
+	<a href="press.html" class="text-sm font-medium">Press</a>
+    <a href="more.html" class="text-sm font-medium">More</a>
+  </div>
+</nav>
+
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+  
+
+
+  <!-- Info Box -->
+<section class="max-w-3xl mx-auto mt-6 px-4">
+  <div class="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-lg shadow-sm">
+    <p class="text-sm">
+      Some of my media appearences in local and national news.
+    </p>
+  </div>
+</section>
+
+<section class="max-w-4xl mx-auto mt-8 px-4 pb-8">
+ <!-- News grid -->
+    <div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+
+
+      <!-- News card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="images/nash-at-the-gala.jpg" alt="CEO Interview" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h2 class="text-lg font-semibold text-gray-900 mb-2">
+            Easy as PI: LSU-Built Professor Rating App Adds New Features
+          </h2>
+          <p class="text-gray-600 text-sm mb-4">
+            The Professor Index app, or PI, launched on Pi Day in March last year, was built by an ...
+          </p>
+<a href="https://www.lsu.edu/blog/2025/09/pi-app-adds-new-features.php" class="inline-block px-4 py-2 bg-black text-sm font-medium rounded-md hover:bg-gray-800"  style="color: white !important;">
+  Read More
+</a>
+
+        </div>
+      </div>
+
+      <!-- News card -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="images/press1.AVIF" alt="CEO Interview" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h2 class="text-lg font-semibold text-gray-900 mb-2">
+            Our CEO discusses the Impact of Professor Index
+          </h2>
+          <p class="text-gray-600 text-sm mb-4">
+            Professor Index, which is set to transform how college students evaluate and select professors...
+          </p>
+<a href="https://www.lsu.edu/eng/news/2024/10/lsu-cs-mahmoud-designs-professor-and-course-evaluation-app.php" class="inline-block px-4 py-2 bg-black text-sm font-medium rounded-md hover:bg-gray-800"  style="color: white !important;">
+  Read More
+</a>
+
+        </div>
+      </div>
+
+      <!-- Duplicate this block for more news items -->
+      <div class="bg-white rounded-2xl shadow-md overflow-hidden hover:shadow-lg transition-shadow">
+        <img src="images/press2.jpeg" alt="News item" class="w-full h-48 object-cover">
+        <div class="p-6">
+          <h2 class="text-lg font-semibold text-gray-900 mb-2">
+            PI Wins Nexus Louisiana PitchBR Competition
+          </h2>
+          <p class="text-gray-600 text-sm mb-4">
+            Professor Index, a cutting-edge startup dedicated to revolutionizing higher education...
+          </p>
+         <a href="https://news.nexusla.org/344546-lsu-professor-wins-nexus-louisiana-pitchbr-competition"  class="inline-block px-4 py-2 bg-black text-sm font-medium rounded-md hover:bg-gray-800" style="color: white !important;">
+  Read More</a>
+        </div>
+      </div>
+
+
+    </div>
+
+
+
+</section>
+  
+<!-- Bottom Navigation Menu -->
+
+
+<footer class="bg-white w-full py-4 border-t border-gray-200">
+  <div class="max-w-3xl mx-auto px-4 flex justify-between items-center text-xs font-sans">
+    <!-- Left Links -->
+    <div class="text-gray-500 space-x-2">
+      <a href="https://lsu.edu/feedback" class="hover:text-gray-700">Provide Feedback</a>
+      <span>|</span>
+      <a href="https://lsu.edu/accessibility" class="hover:text-gray-700">Accessibility Statement</a>
+    </div>
+    <!-- Right Copyright -->
+    <div class="text-gray-500 text-right">
+      © 2025 Nash Mahmoud. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+</div>
+
+</body>
+</html>
+

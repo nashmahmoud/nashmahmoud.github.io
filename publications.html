@@ -1,0 +1,749 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/tiger.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <title>Nash Mahmoud | Publications</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans pb-16">
+<div class="max-w-4xl mx-auto bg-white px-6 py-6"> 
+
+<!-- Navbar -->
+<nav class="bg-white z-50 py-4">
+  <div class="max-w-3xl mx-auto px-4 flex justify-center relative">
+    
+    <!-- Desktop Nav: Rounded container with shadow -->
+    <div class="hidden md:flex space-x-0 bg-white rounded-full shadow-md overflow-hidden">
+      <a href="index.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">About</a>
+      <a href="publications.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Publications</a>
+      <a href="students.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Students</a>
+	  <a href="press.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Press</a>
+      <a href="more.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">More</a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2 focus:outline-none">
+      <i class="fa fa-bars text-2xl"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-start space-y-4 py-4 border-t border-gray-200 px-4 max-w-3xl mx-auto">
+    <a href="index.html" class="text-sm font-medium">About</a>
+    <a href="publications.html" class="text-sm font-medium">Publications</a>
+    <a href="students.html" class="text-sm font-medium">Students</a>
+	<a href="press.html" class="text-sm font-medium">Press</a>
+    <a href="more.html" class="text-sm font-medium">More</a>
+  </div>
+</nav>
+
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+  
+ 
+
+  <!-- Info Box -->
+<section class="max-w-3xl mx-auto mt-6 px-4">
+  <div class="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-lg shadow-sm">
+    <p class="text-sm">
+      My work frequently appears at ICSE, ACM TOSEM, IEEE TSE, ASE, ESE, IEEE RE, ICPC, and REJ.
+    </p>
+    <p>
+      For more information, see my 
+      <a href="https://scholar.google.com/citations?user=t6_z3zYAAAAJ&hl=en&oi=ao" class="inline-flex items-center text-blue-700 hover:text-blue-900">
+        Google Scholar
+      </a>
+    </p>
+  </div>
+</section>
+
+
+
+  <!-- Publications Section -->
+<section id="publications" class="max-w-3xl mx-auto mt-7 px-4">
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Publications</h2>
+
+  <div class="bg-white rounded-2xl divide-y divide-gray-200">
+    <!-- Single publication -->
+    <div class="pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+        Large Action Models for Programmatic Orchestration
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">BISE ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        J. Rodriguez, G. Piccoli, and A. Mahmoud  
+        <em>Business & Information Systems Engineering (IF 10.8)</em>
+      </p>
+      
+    </div>
+	
+	
+
+    <!-- Another publication -->
+    <div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold ttext-gray-700 text-base flex items-center">
+        Automatic Summarization of Mobile App Reviews using Chain of Density Prompting
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ASE ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        S. Shrestha, A. Mahmoud  
+        <em>Automated Software Engineering Journal</em>
+      </p>
+      
+    </div>
+
+    <!-- Another publication -->
+    <div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+        No Country for Indie Developers: A Study of Google Play’s Closed Testing Requirements
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TOSEM ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        G. Shrestha, S. Shrestha, and A. Mahmoud  
+        <em>ACM Transactions on Software Engineering and Methodology</em>
+      </p>
+      
+    </div>
+	
+	<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Generating Rate Features for Mobile Applications
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">MobileSoft ’24</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    S. Shrestha and A. Mahmoud  
+    <em>International Conference on Mobile Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Using Wireframing Frameworks in a Capstone Software Engineering Class
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">IEEE Software ’23</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud  
+    <em>IEEE Software</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Unsupervised Summarization of Privacy Concerns in Mobile Application Reviews
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ASE ’22</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    F. Ebrahimi and A. Mahmoud  
+    <em>IEEE/ACM International Conference on Automated Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Domain-Specific Analysis of Mobile App Reviews Using Keyword-Assisted Topic Models
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE ’22</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, F. Ebrahimi, and A. Mahmoud  
+    <em>International Conference on Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    A Sys. Lit. Rev. of Anti-Discrimination Design Strategies in the Digital Sharing Economy
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TSE ’22</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, F. Ebrahimi, and A. Mahmoud  
+    <em>IEEE Transactions on Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Classifying Mobile Applications Using Word Embeddings
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TOSEM ’21</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    F. Ebrahimi, M. Tushev, and A. Mahmoud  
+    <em>ACM Transactions on Software Engineering and Methodology</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Analysis of Nondiscrimination Policies in the Sharing Economy
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSME ’21</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, F. Ebrahimi, and A. Mahmoud  
+    <em>International Conference on Software Maintenance and Evolution</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Mobile App Privacy in Software Engineering Research: A Systematic Mapping Study
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">IST ’21</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    F. Ebrahimi, M. Tushev, and A. Mahmoud  
+    <em>Information and Software Technology</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Modeling User Concerns in Sharing Economy: The Case of Food Delivery Apps
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ASEJ ’20</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams, M. Tushev, F. Ebrahimi, and A. Mahmoud  
+    <em>Automated Software Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Digital Discrimination in Sharing Economy: An RE Perspective
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’20</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, F. Ebrahimi, and A. Mahmoud  
+    <em>IEEE Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Linguistic Documentation of Software History
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’20</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev and A. Mahmoud  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    On Combining IR Methods to Improve Bug Localization
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’20</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    S. Khatiwada, M. Tushev, and A. Mahmoud  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Using GitHub in Large Software Engineering Classes: An Exploratory Case Study
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">CSE ’19</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, G. Williams, and A. Mahmoud  
+    <em>Journal of Computer Science Education</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Linguistic Change in Open Source Software
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSME ’19</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Tushev, S. Khatiwada, and A. Mahmoud  
+    <em>International Conference on Software Maintenance and Evolution</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Video Game Development in a Rush: A Survey of the Global Game Jam Participants
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TG ’19</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Borg, V. Garousi, A. Mahmoud, T. Olsson, O. Stalberg  
+    <em>IEEE Transactions on Games</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Mining Non-Functional Requirements from App Store Reviews
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">EMSE ’19</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Jha and A. Mahmoud  
+    <em>Empirical Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Summary of SST'19 - Software and Systems Traceability
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ACM SEN ’19</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    J. Steghofer, N. Guo, and A. Mahmoud  
+    <em>ACM SIGSOFT Software Engineering Notes</em>
+  </p>
+</div>
+
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Modeling User Concerns in the App Store: A Case Study on the Rise and Fall of Yik Yak
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’18</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams and A. Mahmoud  
+    <em>IEEE International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Using Frame Semantics for Classifying and Summarizing Application Store Reviews
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">EMSE ’18</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Jha and A. Mahmoud  
+    <em>Empirical Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    An Information Theoretic Approach for IR-based Software Bug Localization
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">IST ’18</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    S. Khatiwada, M. Tushev, and A. Mahmoud  
+    <em>Information and Software Technology</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Enhancing the Req. Eng. Process with Efficient Knowledge Acquisition Techniques
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">AIAA ’18</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    D. Rodriguez, D. Carver, and A. Mahmoud  
+    <em>IEEE/AIAA Aerospace Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    A Time and Energy Efficient Routing Alg. for Elec. Vehicles based on Hist. Driving Data
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">IEEE T-IV ’18</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    M. Bozorgi, M. Farasat, and A. Mahmoud  
+    <em>IEEE Transactions on Intelligent Vehicles</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Semantic Topic Models for Source Code Analysis
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">EMSE ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and G. Bradshaw  
+    <em>Empirical Software Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Mining Twitter Feeds for Software User Requirements
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams and A. Mahmoud  
+    <em>IEEE International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Analyzing User Comments on YouTube Coding Tutorial Videos
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    E. Poche, N. Jha, G. Williams, J. Staten, M. Vesper, and A. Mahmoud  
+    <em>Inter. Conf. on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Mining User Requirements from Application Store Reviews using Frame Semantics
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REFSQ ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Jha and A. Mahmoud  
+    <em>Requirements Engineering: Foundation for Software Quality</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    MARC: A Mobile Application Review Classifier
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REFSQ ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Jha and A. Mahmoud  
+    <em>Requirements Engineering: Foundation for Software Quality</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Mining Twitter Data for a More Responsive Software Engineering Process
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE Posters ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams and A. Mahmoud  
+    <em>International Conference on Software Engineering (Posters)</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Analyzing, Classifying, and Interpreting Emotions in Software Users Tweets
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE/SEmotion ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams and A. Mahmoud  
+    <em>Emotion Awareness in Software Engineering (ICSE/SEmotion)</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Copper: Bringing Flexible Components to the .NET Framework
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE/ECASE ’17</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    G. Williams and A. Mahmoud  
+    <em>International Conference on Software Engineering / ECASE</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Detecting, Classifying, and Tracing Non-Functional Requirements
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REJ ’16</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and G. Williams  
+    <em>Requirements Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    STAC: A Tool for Static Textual Analysis of Code
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC Tools ’16</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    S. Khatiwada, M. Kelly, and A. Mahmoud  
+    <em>International Conference on Program Comprehension (Tools track)</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Estimating Semantic Relatedness in Source Code
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TOSEM ’15</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and G. Bradshaw  
+    <em>ACM Transactions on Software Engineering and Methodology</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    An Info. Theor. Approach for Extracting and Tracing NFRs
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’15</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud  
+    <em>IEEE International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Exploiting Online Human Knowledge in Requirements Engineering
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE: Next! ’15</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and D. Carver  
+    <em>IEEE International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Leveraging LDA and POS Tagging to Support Combinational Creativity in RE
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REJ ’15</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu, J. Savolainen, and A. Mahmoud  
+    <em>Requirements Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Supporting Requirements to Code Traceability through Refactoring
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REJ ’14</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>Requirements Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    On the Role of Semantics in Automated Requirements Tracing
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">REJ ’14</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>Requirements Engineering Journal</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Automated Support for Combinational Creativity in Requirements Engineering
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’14</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    T. Bowmik, N. Niu, A. Mahmoud, and J. Savolainen  
+    <em>Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Supporting Requirements Traceability Through Refactoring
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’13</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Departures from Optimality: Understanding Human Analyst's Info Foraging in RET
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE ’13</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu, A. Mahmoud, and G. Bradshaw  
+    <em>International Conference on Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Evaluating Software Clustering Algorithms in the Context of Program Comprehension
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’13</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Enhancing Candidate Link Gen. for RET: The Cluster Hypothesis Revisited
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’12</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu and A. Mahmoud  
+    <em>International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    A Semantic Relatedness Approach for Traceability Link Recovery
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’12</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud, N. Niu, and S. Xu  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Toward an Effective Automated Tracing Process: A Research Agenda
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’12</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Automatic Labeling of Requirements Clusters
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">SUITE/ICSE ’12</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu, S. Reddivari, A. Mahmoud, and T. Bhowmik  
+    <em>Inter. Workshop on Search-driven Development</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    A Framework for Examining Topical Locality in Object-Oriented Software
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">COMPSAC ’12</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu, J. Savolainen, T. Bhowmik, A. Mahmoud, and S. Reddivari  
+    <em>Computer Software and Applications Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Faceted Navigation for Software Exploration
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICPC ’11</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud, X. Yang, and N. Niu  
+    <em>International Conference on Program Comprehension</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Source Code Indexing for Automated Tracing
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">TEFSE/ICSE ’11</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>Traceability in Emerging Forms of Software Engineering (TEFSE/ICSE)</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    TraCter: A Tool for Candidate Traceability Link Clustering
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">RE ’11</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud, N. Niu, and X. Yang  
+    <em>International Requirements Engineering Conference</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Information Foraging as a Foundation for Code Navigation
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">ICSE ’11</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    N. Niu, A. Mahmoud, and G. Bradshaw  
+    <em>International Conference on Software Engineering</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    An Experimental Investigation of Reusable Requirements Retrieval
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">IRI ’10</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>International Conference on Information Reuse and Integration</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Real-Time Traffic Information for Emergency Evacuations
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">JTSS ’10</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    O. Franzese and A. Mahmoud  
+    <em>Journal of Transportation Safety & Security</em>
+  </p>
+</div>
+
+<div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+  <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+    Using Semantics-Enabled IR in RET: An Ongoing Experimental Investigation
+    <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded">COMPSAC ’10</span>
+  </h3>
+  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+    A. Mahmoud and N. Niu  
+    <em>IEEE Computer Software and Applications Conference</em>
+  </p>
+  <br>
+</div>
+
+	
+  </div>
+  
+  
+</section>
+
+ 
+  
+<!-- Bottom Navigation Menu -->
+
+
+<footer class="bg-white w-full py-4 border-t border-gray-200">
+  <div class="max-w-3xl mx-auto px-4 flex justify-between items-center text-xs font-sans">
+    <!-- Left Links -->
+    <div class="text-gray-500 space-x-2">
+      <a href="https://lsu.edu/feedback" class="hover:text-gray-700">Provide Feedback</a>
+      <span>|</span>
+      <a href="https://lsu.edu/accessibility" class="hover:text-gray-700">Accessibility Statement</a>
+    </div>
+    <!-- Right Copyright -->
+    <div class="text-gray-500 text-right">
+      © 2025 Nash Mahmoud. All rights reserved.
+    </div>
+  </div>
+</footer>
+
+
+</div>
+
+</body>
+</html>
