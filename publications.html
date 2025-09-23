@@ -16,20 +16,25 @@
 <div class="max-w-4xl mx-auto bg-white px-6 py-6"> 
 
 <!-- Navbar -->
+<!-- Navbar -->
+<!-- Navbar -->
 <nav class="bg-white z-50 py-4">
-  <div class="max-w-3xl mx-auto px-4 flex justify-center relative">
+  <div class="max-w-3xl mx-auto px-4 flex items-center justify-between md:justify-center">
     
-    <!-- Desktop Nav: Rounded container with shadow -->
+    <!-- Page title for mobile -->
+    <span class="md:hidden text-lg font-semibold text-gray-800">Publications</span>
+
+    <!-- Desktop Nav: Centered on md+ -->
     <div class="hidden md:flex space-x-0 bg-white rounded-full shadow-md overflow-hidden">
       <a href="https://nashmahmoud.github.io/" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Home</a>
       <a href="publications.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Publications</a>
       <a href="students.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Students</a>
-	  <a href="press.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Press</a>
+      <a href="press.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Press</a>
       <a href="more.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">More</a>
     </div>
 
     <!-- Mobile Hamburger -->
-    <button id="menu-btn" class="md:hidden absolute right-4 top-1/2 transform -translate-y-1/2 focus:outline-none">
+    <button id="menu-btn" class="md:hidden focus:outline-none">
       <i class="fa fa-bars text-2xl"></i>
     </button>
   </div>
@@ -39,10 +44,12 @@
     <a href="https://nashmahmoud.github.io/" class="text-sm font-medium">Home</a>
     <a href="publications.html" class="text-sm font-medium">Publications</a>
     <a href="students.html" class="text-sm font-medium">Students</a>
-	<a href="press.html" class="text-sm font-medium">Press</a>
+    <a href="press.html" class="text-sm font-medium">Press</a>
     <a href="more.html" class="text-sm font-medium">More</a>
   </div>
 </nav>
+
+
 
 <script>
   const btn = document.getElementById('menu-btn');
@@ -63,7 +70,7 @@
 
   <!-- Publications Section -->
 <section id="publications" class="max-w-3xl mx-auto mt-7 px-4">
-  <h2 class="text-2xl font-bold mb-4 text-gray-800">Publications</h2>
+  <!--<h2 class="text-2xl font-bold mb-4 text-gray-800">Publications</h2>-->
 
  <!-- Info Box -->
 <section class="max-w-3xl mx-auto mt-6 px-4">
