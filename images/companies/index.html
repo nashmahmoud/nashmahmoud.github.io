@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./images/tiger.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" type="text/css" href="mystyle.css">
+  <script src="https://www.w3schools.com/lib/w3data.js"></script>
+  <title>Nash Mahmoud | Home</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+
+
+</head>
+<body class="bg-gray-50 text-gray-900 font-sans pb-16">
+<div class="max-w-4xl mx-auto bg-white px-6 py-6"> 
+
+<!-- Navbar -->
+<nav class="bg-white z-50 py-1 md:py-4">
+  <div class="max-w-3xl mx-auto px-4 flex items-center justify-between md:justify-center">
+    
+    <!-- Page title for mobile -->
+    <span class="md:hidden text-lg font-semibold text-gray-800">Home</span>
+
+    <!-- Desktop Nav: Centered on md+ -->
+    <div class="hidden md:flex space-x-0 bg-white rounded-full shadow-md overflow-hidden">
+      <a href="https://nashmahmoud.github.io/" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Home</a>
+      <a href="publications.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Publications</a>
+      <a href="students.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Students</a>
+      <a href="press.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">Press</a>
+      <a href="more.html" class="px-5 py-2 text-sm font-medium hover:bg-gray-100 transition">More</a>
+    </div>
+
+    <!-- Mobile Hamburger -->
+    <button id="menu-btn" class="md:hidden focus:outline-none">
+      <i class="fa fa-bars text-2xl"></i>
+    </button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden md:hidden flex flex-col items-start space-y-4 py-4 px-4 max-w-3xl mx-auto">
+    <a href="https://nashmahmoud.github.io/" class="text-sm font-medium">Home</a>
+    <a href="publications.html" class="text-sm font-medium">Publications</a>
+    <a href="students.html" class="text-sm font-medium">Students</a>
+    <a href="press.html" class="text-sm font-medium">Press</a>
+    <a href="more.html" class="text-sm font-medium">More</a>
+  </div>
+</nav>
+
+
+<script>
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+
+
+
+  <!-- Profile Section -->
+  <section class="max-w-3xl mx-auto text-center px-0 mt-6">
+    <img src="images/nash.jpg" alt="Profile"
+         class="mx-auto w-42 h-52 rounded-2xl border-4 border-white shadow-md object-cover">
+    <h1 class="mt-4 text-3xl font-bold">
+      Nash Mahmoud, Ph.D.<br> 
+    </h1>
+    <p class="mt-4 text-gray-600 text-[0.90rem] leading-relaxed">
+      Associate Professor of Computer Science.<br>
+      Co-founder and CEO of 
+      <a href="https://professorindex.com/">Professor Index</a>.
+    </p>
+    <div class="mt-6 flex justify-center space-x-4 text-gray-500">
+      <a href="https://www.linkedin.com/in/nash-mahmoud-163336131"><img src="./images/twitter.png" class="imgWrap" alt="Nash's Twitter" title="Twitter"></a>
+      <a href="https://scholar.google.com/citations?user=t6_z3zYAAAAJ&hl=en&oi=ao"><img src="./images/google.png" class="imgWrap" alt="Nash's Google Scholars" title="Google Scholars"></a>
+      <a href="https://github.com/nashmahmoud"><img src="./images/github.png" class="imgWrap" alt="Nash's GitHub" title="GitHub"></a>
+      <a href="http://seel.cse.lsu.edu"><img src="./images/lab.png" class="imgWrap" alt="Nash's SEEL Lab" title="SEEL Lab"></a>
+	  <a href="https://professorindex.com/"><img src="./images/PI.png" class="imgWrap" alt="Professor Index" title="Professor Index"></a>
+    </div>
+  </section>
+
+  <!-- Load Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script>
+    lucide.createIcons();
+  </script>
+
+  <!-- About Section -->
+  <section id="about" class="max-w-3xl mx-auto mt-5 px-4">
+
+    <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+      My name is Anas Mahmoud, known to most people as Nash. I am an Associate Professor of 
+      <a href="http://www.csc.lsu.edu">Computer Science and Engineering</a> at 
+      <a href="http://www.lsu.edu">Louisiana State University</a>. I direct the 
+      <a href="http://seel.cse.lsu.edu">Software Engineering and Evolution Lab (SEEL)</a> at LSU. 
+      I received my PhD in <a href="http://www.cse.msstate.edu">Computer Science and Engineering</a> 
+      from <a href="http://www.msstate.edu">Mississippi State University</a>, as well as my Master's degree from the same department.
+      <br><br>
+      My research interests are in empirical software engineering, with emphasis on requirements engineering, 
+      static code analysis, and human-computer interaction. My work at 
+      <a href="https://seel.cse.lsu.edu/">SEEL</a> is funded by the National Science Foundation (NSF), 
+      Google, the Louisiana Board of Regents, and LSU.
+    </p>
+  </section>
+
+  <!-- Publications Section -->
+<section id="publications" class="max-w-3xl mx-auto mt-7 px-4">
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Publications</h2>
+
+  <div class="bg-white rounded-2xl divide-y divide-gray-200">
+    <!-- Single publication -->
+    <div class="pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+        <a href='https://link.springer.com/journal/12599'>Large Action Models for Programmatic Orchestration</a>
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded whitespace-nowrap">BISE ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        J. Rodriguez, G. Piccoli, and A. Mahmoud  
+        <em>Business & Information Systems Engineering (IF 10.8)</em>
+      </p>
+      
+    </div>
+	
+	
+
+    <!-- Another publication -->
+    <div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold ttext-gray-700 text-base flex items-center">
+        <a href='https://arxiv.org/abs/2506.14192'>Automatic Summarization of Mobile App Reviews using Chain of Density Prompting</a>
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded whitespace-nowrap">ASE ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        S. Shrestha, A. Mahmoud  
+        <em>Automated Software Engineering Journal</em>
+      </p>
+      
+    </div>
+
+    <!-- Another publication -->
+    <div class="pt-2 pb-2 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <h3 class="mt-1 font-semibold text-gray-700 text-base flex items-center">
+        <a href='https://dl.acm.org/doi/10.1145/3736578'>No Country for Indie Developers: A Study of Google Play’s Closed Testing Requirements</a>
+        <span class="ml-2 bg-gray-100 text-gray-600 text-xs font-medium px-2 py-0.5 rounded whitespace-nowrap">TOSEM ’25</span>
+      </h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        G. Shrestha, S. Shrestha, and A. Mahmoud  
+        <em>ACM Transactions on Software Engineering and Methodology (A*)</em>
+      </p>
+      
+    </div>
+	
+  </div>
+  
+    <!-- Link at bottom -->
+  <div class="mt-3 text-right">
+    <a href="publications.html" class="font-medium text-sm">See more publications →</a>
+  </div>
+  
+</section>
+
+
+
+
+
+
+ 
+  <!-- News Section -->
+  <section id="news" class="max-w-3xl mx-auto mt-7 px-4 pb-2">
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Recent News</h2>
+
+  <div class="bg-white rounded-2xl divide-y divide-gray-200">
+
+    <!-- Another news item -->
+    <div class="pt-4 pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <p class="text-gray-400 text-sm">August 15, 2025</p>
+      <h3 class="mt-1 font-semibold text-gray-700 text-base"><span class="text-red-500 text-sm mr-1">📌</span>Our NSF SFS Proposal is funded ($2.6m)</h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        The NSF funded our new Scholarship for Service (SFS) proposal. Total amount is $2.6m. The project is led by <a href='https://www.cct.lsu.edu/~golden/'>Golden Richard III</a>.
+      </p>
+      <a href="https://www.lsu.edu/blog/2025/08/cybercorps-award.php" class="font-medium mt-1 inline-block text-sm">See news →</a>
+    </div>
+	
+	<!-- Another news item -->
+    <div class="pt-4 pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <p class="text-gray-400 text-sm">September 19, 2025</p>
+      <h3 class="mt-1 font-semibold text-gray-700 text-base"><span class="text-yellow-500 text-sm mr-1">🏆</span>Nash receives the Excellence in Teaching Award</h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        Nash receives the Excellence in Teaching Award awarded at the LSU CSE Gala'25.
+      </p>
+      <a href='https://www.lsu.edu/eng/cse/newsandevents/2025gala.php' class="font-medium mt-1 inline-block text-sm">See news →</a>
+    </div>
+
+    <!-- Another news item -->
+    <!--<div class="pt-4 pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <p class="text-gray-400 text-sm">April 10, 2025</p>
+      <h3 class="mt-1 font-semibold text-gray-700 text-base"><span class="text-red-500 text-sm mr-1">📌</span>Chloe Trevino is awarded LSU OUR award</h3>
+      
+	  <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+		My undergrad student Chloe Trevino is awarded $6k from the LSU Office of Undergradate Resreach to work on professor evaluation systems during the summer of 2025.
+      </p>
+      <a href="https://www.lsu.edu/our/index.php" class="font-medium mt-1 inline-block text-sm">See more →</a>
+    </div> -->
+
+    <!-- Another news item -->
+    <div class="pt-4 pb-4 p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <p class="text-gray-400 text-sm">October 8, 2024</p>
+     <h3 class="mt-1 font-semibold text-gray-700 text-base">
+  <span class="text-red-500 text-sm mr-1">📄</span> Professor Index is Featured on LSU Research</h3>
+      <p class="text-gray-600 mt-1 text-sm leading-relaxed">
+        In a year and a half, PI has grown to reach 20 universities, including LSU, Tulane University, and University of Louisiana at Lafayette ...
+      </p>
+      <a href="https://www.lsu.edu/eng/news/2024/10/lsu-cs-mahmoud-designs-professor-and-course-evaluation-app.php" class="font-medium mt-1 inline-block text-sm">See full article →</a>
+    </div>
+  </div>
+      <!-- Link at bottom -->
+  <div class="mt-3 text-right">
+    <a href="more.html" class="font-medium text-sm">See more news →</a>
+  </div>
+  
+</section>
+
+
+<section id="companies" class="max-w-3xl mx-auto mt-7 px-4">
+  <h2 class="text-2xl font-bold mb-4 text-gray-800">Student Startups</h2>
+
+<section class="max-w-3xl mx-auto mt-6 mb-6">
+  <div class="bg-blue-50 border-l-4 border-blue-400 text-blue-700 p-4 rounded-lg shadow-sm">
+    <p class="text-sm">
+      The following is a list of active startups that were established by students from my CSC 4330 class.
+      </a>
+    </p>
+  </div>
+</section> 
+
+  <div class="bg-white rounded-2xl divide-y divide-gray-200">
+    <!-- Company 3 -->
+	<div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/crimer_logo.jpeg" alt="Google Logo" class="w-16 h-16 object-contain rounded-lg border border-gray-700 p-1"  />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://www.crimer.com/">Crimer</a></h3>
+        <p class="text-gray-600 text-sm">Crime Analytics</a></p>
+        <p class="text-gray-600 text-sm">Founders: Alexandar Adams, William Woodfin, and Charles Glass</p>
+      </div>
+    </div>
+	
+	     <!-- Company 3 -->
+    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/breach.svg" alt="Google Logo" class="w-16 h-16 object-contain rounded-lg border" />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://breachsoftware.com/">Breach Software</a></h3>
+        <p class="text-gray-600 text-sm">Software Development</p>
+        <p class="text-gray-600 text-sm">Founders: Colin Hebert, Matthew Ieyoub, George Villaume</p>
+      </div>
+    </div>
+	
+	<!-- Company 1 -->
+    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/Farmsmart.png" alt="Professor Index Logo" class="w-16 h-16 object-contain rounded-lg border" />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://farmsmart.ai/">Farmsmart</a></h3>
+        <p class="text-gray-600 text-sm">Agriculture Tech</a></p>
+        <p class="text-gray-600 text-sm">Founders: Grant Muslow, Colin Raby</p>
+      </div>
+    </div>
+
+    <!-- Company 2 -->
+    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/vigilus.jpeg" alt="OpenAI Logo" class="w-16 h-16 object-contain rounded-lg border border-gray-700 p-1"  />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://vigilus.com/">Vigilus</a></h3>
+        <p class="text-gray-600 text-sm">Cyber Security</p>
+        <p class="text-gray-600 text-sm">Founders: Alexandar Adams, William Woodfin, and Charles Glass</p>
+      </div>
+    </div>
+
+    <!-- Company 2 -->
+    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/DH.PNG" alt="OpenAI Logo" class="w-16 h-16 object-contain rounded-lg border border-gray-700 bg-black p-1"  />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://dhlabs.io/">Dark Horse Labs</a></h3>
+        <p class="text-gray-600 text-sm">Software Development</p>
+        <p class="text-gray-600 text-sm">Founders: Walter Scott, Ian Andrepont, Remy McConnell, Michael Sheppard</p>
+      </div>
+    </div>
+
+    <!-- Company 3 -->
+    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/Zenith.png" alt="Google Logo" class="w-16 h-16 object-contain rounded-lg border" />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://zenithsoftware.dev/">Zenith Software</a></h3>
+        <p class="text-gray-600 text-sm">Software Development</p>
+        <p class="text-gray-600 text-sm">Founders: Tre Landaiche, Blake Bollinger, John Bajor, Darrin Lea, Trevor Baughman, Calvin Feldt</p>
+      </div>
+    </div>
+  
+   
+  
+
+	
+	    <div class="flex items-center gap-4 p-4 rounded-lg hover:bg-gray-100 transition-colors duration-200">
+      <img src="images/companies/tag.svg" alt="Google Logo" class="w-16 h-16 object-contain rounded-lg border border-gray-700 bg-black p-1"  />
+      <div>
+        <h3 class="font-semibold text-gray-800 text-base"><a href="https://www.tagdatasolutions.com/">Tag Data Solutions</a></h3>
+        <p class="text-gray-600 text-sm">Animal Science Tech</p>
+        <p class="text-gray-600 text-sm">Amy Guitreau and Kyle Throckmorton</p>
+      </div>
+    </div>
+	
+	
+	
+
+  
+
+ 
+</section>
+
+<!-- Bottom Navigation Menu -->
+<!-- Bottom Navigation Menu -->
+
+
+<footer class="bg-white w-full py-4 border-t border-gray-200">
+  <div class="max-w-3xl mx-auto px-4 flex justify-between items-center text-xs font-sans">
+    <!-- Left Links -->
+    <div class="text-gray-500 space-x-2">
+      <a href="https://lsu.edu/feedback" class="hover:text-gray-700">Provide Feedback</a>
+      <span>|</span>
+      <a href="https://lsu.edu/accessibility" class="hover:text-gray-700">Accessibility Statement</a>
+    </div>
+    <!-- Right Copyright -->
+    <div class="text-gray-500 text-right">
+      © 2025 Nash Mahmoud
+    </div>
+  </div>
+</footer>
+
+
+</div>
+
+</body>
+</html>
